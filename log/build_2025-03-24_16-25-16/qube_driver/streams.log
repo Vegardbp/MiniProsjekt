@@ -1,0 +1,79 @@
+[0.258s] Invoking command in '/home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/qube_description:/home/ubuntu/ros2_ws/install/py_srvcli:/home/ubuntu/ros2_ws/install/py_pubsub:/home/ubuntu/ros2_ws/install/pid_controller:/home/ubuntu/ros2_ws/install/launch_testing_examples:/home/ubuntu/ros2_ws/install/joint_simulator:/home/ubuntu/ros2_ws/install/joint_description:/home/ubuntu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_service:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_client:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/ros2_ws/install/examples_rclpy_guard_conditions:/home/ubuntu/ros2_ws/install/examples_rclpy_executors:/home/ubuntu/ros2_ws/src/install/qube_description:/home/ubuntu/ros2_ws/src/install/pid_controller:/home/ubuntu/ros2_ws/src/install/joint_simulator:/home/ubuntu/ros2_ws/src/install/joint_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_driver -- -j4 -l4
+[0.284s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.539s] -- Found hardware_interface: 4.24.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[0.567s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.576s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.591s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.608s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.827s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.865s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.868s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.888s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.900s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.919s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.930s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.946s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.074s] -- Found controller_manager: 4.24.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[1.988s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.099s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.099s] -- Configured cppcheck include dirs: /home/ubuntu/ros2_ws/src/MiniProsjekt/qube_driver/include
+[2.099s] -- Configured cppcheck exclude dirs and/or files: 
+[2.100s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.100s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.101s] -- Added test 'lint_cmake' to check CMake code style
+[2.101s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.104s] -- Added test 'uncrustify' to check C / C++ code style
+[2.104s] -- Configured uncrustify additional arguments: 
+[2.104s] -- Added test 'xmllint' to check XML markup files
+[2.106s] -- Configuring done (1.8s)
+[2.126s] -- Generating done (0.0s)
+[2.132s] -- Build files have been written to: /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_driver
+[2.174s] [ 66%] Built target serial
+[2.202s] [ 83%] [32mBuilding CXX object CMakeFiles/qube_driver.dir/src/qube_driver.cpp.o[0m
+[6.858s] [100%] [32m[1mLinking CXX shared library libqube_driver.so[0m
+[7.104s] [100%] Built target qube_driver
+[7.118s] Invoked command in '/home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/qube_description:/home/ubuntu/ros2_ws/install/py_srvcli:/home/ubuntu/ros2_ws/install/py_pubsub:/home/ubuntu/ros2_ws/install/pid_controller:/home/ubuntu/ros2_ws/install/launch_testing_examples:/home/ubuntu/ros2_ws/install/joint_simulator:/home/ubuntu/ros2_ws/install/joint_description:/home/ubuntu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_service:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_client:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/ros2_ws/install/examples_rclpy_guard_conditions:/home/ubuntu/ros2_ws/install/examples_rclpy_executors:/home/ubuntu/ros2_ws/src/install/qube_description:/home/ubuntu/ros2_ws/src/install/pid_controller:/home/ubuntu/ros2_ws/src/install/joint_simulator:/home/ubuntu/ros2_ws/src/install/joint_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_driver -- -j4 -l4
+[7.128s] Invoking command in '/home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/qube_description:/home/ubuntu/ros2_ws/install/py_srvcli:/home/ubuntu/ros2_ws/install/py_pubsub:/home/ubuntu/ros2_ws/install/pid_controller:/home/ubuntu/ros2_ws/install/launch_testing_examples:/home/ubuntu/ros2_ws/install/joint_simulator:/home/ubuntu/ros2_ws/install/joint_description:/home/ubuntu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_service:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_client:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/ros2_ws/install/examples_rclpy_guard_conditions:/home/ubuntu/ros2_ws/install/examples_rclpy_executors:/home/ubuntu/ros2_ws/src/install/qube_description:/home/ubuntu/ros2_ws/src/install/pid_controller:/home/ubuntu/ros2_ws/src/install/joint_simulator:/home/ubuntu/ros2_ws/src/install/joint_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_driver
+[7.136s] -- Install configuration: ""
+[7.136s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/hardware_interface_plugin.xml
+[7.136s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/environment/library_path.sh
+[7.136s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/environment/library_path.dsv
+[7.137s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/lib/libqube_driver.so
+[7.138s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/lib/libqube_driver.so" to ""
+[7.138s] -- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver//config
+[7.138s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver//config/joint_controllers.yaml
+[7.138s] -- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver//launch
+[7.138s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver//launch/qube_driver.launch.py
+[7.138s] -- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver//ros2_control
+[7.138s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver//ros2_control/qube_driver.ros2_control.xacro
+[7.139s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/ament_index/resource_index/package_run_dependencies/qube_driver
+[7.139s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/ament_index/resource_index/parent_prefix_path/qube_driver
+[7.139s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/environment/ament_prefix_path.sh
+[7.139s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/environment/ament_prefix_path.dsv
+[7.139s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/environment/path.sh
+[7.139s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/environment/path.dsv
+[7.139s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/local_setup.bash
+[7.139s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/local_setup.sh
+[7.139s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/local_setup.zsh
+[7.139s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/local_setup.dsv
+[7.140s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/package.dsv
+[7.140s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/ament_index/resource_index/packages/qube_driver
+[7.140s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/qube_driver
+[7.140s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.140s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[7.140s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/cmake/qube_driverConfig.cmake
+[7.140s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/cmake/qube_driverConfig-version.cmake
+[7.140s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/package.xml
+[7.141s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/serial/serial-config.cmake
+[7.141s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/serial/serial-config-version.cmake
+[7.141s] -- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/lib/libserial.a
+[7.141s] -- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include
+[7.141s] -- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include/serial
+[7.141s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include/serial/v8stdint.h
+[7.141s] -- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include/serial/impl
+[7.142s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include/serial/impl/win.h
+[7.142s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include/serial/impl/unix.h
+[7.142s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include/serial/serial.h
+[7.142s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/serial/serial-targets.cmake
+[7.142s] -- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/serial/serial-targets-noconfig.cmake
+[7.144s] Invoked command in '/home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/qube_description:/home/ubuntu/ros2_ws/install/py_srvcli:/home/ubuntu/ros2_ws/install/py_pubsub:/home/ubuntu/ros2_ws/install/pid_controller:/home/ubuntu/ros2_ws/install/launch_testing_examples:/home/ubuntu/ros2_ws/install/joint_simulator:/home/ubuntu/ros2_ws/install/joint_description:/home/ubuntu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_service:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_client:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/ros2_ws/install/examples_rclpy_guard_conditions:/home/ubuntu/ros2_ws/install/examples_rclpy_executors:/home/ubuntu/ros2_ws/src/install/qube_description:/home/ubuntu/ros2_ws/src/install/pid_controller:/home/ubuntu/ros2_ws/src/install/joint_simulator:/home/ubuntu/ros2_ws/src/install/joint_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_driver

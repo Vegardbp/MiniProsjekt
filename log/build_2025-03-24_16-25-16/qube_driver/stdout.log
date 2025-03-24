@@ -1,0 +1,75 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found hardware_interface: 4.24.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found controller_manager: 4.24.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/ubuntu/ros2_ws/src/MiniProsjekt/qube_driver/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_driver
+[ 66%] Built target serial
+[ 83%] [32mBuilding CXX object CMakeFiles/qube_driver.dir/src/qube_driver.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libqube_driver.so[0m
+[100%] Built target qube_driver
+-- Install configuration: ""
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/hardware_interface_plugin.xml
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/environment/library_path.sh
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/environment/library_path.dsv
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/lib/libqube_driver.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/lib/libqube_driver.so" to ""
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver//config
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver//config/joint_controllers.yaml
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver//launch
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver//launch/qube_driver.launch.py
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver//ros2_control
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver//ros2_control/qube_driver.ros2_control.xacro
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/ament_index/resource_index/package_run_dependencies/qube_driver
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/ament_index/resource_index/parent_prefix_path/qube_driver
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/environment/path.sh
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/environment/path.dsv
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/local_setup.bash
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/local_setup.sh
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/local_setup.zsh
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/local_setup.dsv
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/package.dsv
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/ament_index/resource_index/packages/qube_driver
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/qube_driver
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/cmake/qube_driverConfig.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/cmake/qube_driverConfig-version.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/package.xml
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/serial/serial-config.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/serial/serial-config-version.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/lib/libserial.a
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include/serial
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include/serial/v8stdint.h
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include/serial/impl
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include/serial/impl/win.h
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include/serial/impl/unix.h
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include/serial/serial.h
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/serial/serial-targets.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/serial/serial-targets-noconfig.cmake
