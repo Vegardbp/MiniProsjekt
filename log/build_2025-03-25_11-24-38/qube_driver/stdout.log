@@ -1,0 +1,43 @@
+[ 66%] Built target serial
+[100%] Built target qube_driver
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/hardware_interface_plugin.xml
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/environment/library_path.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/environment/library_path.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/lib/libqube_driver.so
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver//config
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver//config/joint_controllers.yaml
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver//launch
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver//launch/qube_driver.launch.py
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver//ros2_control
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver//ros2_control/qube_driver.ros2_control.xacro
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/ament_index/resource_index/package_run_dependencies/qube_driver
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/ament_index/resource_index/parent_prefix_path/qube_driver
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/environment/path.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/environment/path.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/local_setup.bash
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/local_setup.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/local_setup.zsh
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/local_setup.dsv
+-- Installing: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/package.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/ament_index/resource_index/packages/qube_driver
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/qube_driver
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/cmake/qube_driverConfig.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/cmake/qube_driverConfig-version.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/qube_driver/package.xml
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/serial/serial-config.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/serial/serial-config-version.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/lib/libserial.a
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include/serial
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include/serial/v8stdint.h
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include/serial/impl
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include/serial/impl/win.h
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include/serial/impl/unix.h
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/include/serial/serial.h
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/serial/serial-targets.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_driver/share/serial/serial-targets-noconfig.cmake

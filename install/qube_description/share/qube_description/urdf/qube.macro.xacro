@@ -41,7 +41,6 @@
       <child link="${prefix}rotor_link"/>
       <origin xyz="0 0 ${box_width/2}"/>
       <axis xyz="0 0 1"/>
-      <limit lower="-3.1416" upper="3.1416" effort="10" velocity="10"/>
     </joint>
 
     <link name="${prefix}rotor_link">
