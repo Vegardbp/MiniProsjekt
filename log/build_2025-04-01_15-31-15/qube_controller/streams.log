@@ -1,0 +1,37 @@
+[1.565s] Invoking command in '/home/ubuntu/ros2_ws/src/MiniProsjekt/qube_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/qube_controller build --build-base /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/build install --record /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/install.log --single-version-externally-managed install_data
+[1.926s] running egg_info
+[1.927s] creating ../build/qube_controller/qube_controller.egg-info
+[1.948s] writing ../build/qube_controller/qube_controller.egg-info/PKG-INFO
+[1.949s] writing dependency_links to ../build/qube_controller/qube_controller.egg-info/dependency_links.txt
+[1.949s] writing entry points to ../build/qube_controller/qube_controller.egg-info/entry_points.txt
+[1.949s] writing requirements to ../build/qube_controller/qube_controller.egg-info/requires.txt
+[1.949s] writing top-level names to ../build/qube_controller/qube_controller.egg-info/top_level.txt
+[1.949s] writing manifest file '../build/qube_controller/qube_controller.egg-info/SOURCES.txt'
+[1.995s] reading manifest file '../build/qube_controller/qube_controller.egg-info/SOURCES.txt'
+[1.996s] writing manifest file '../build/qube_controller/qube_controller.egg-info/SOURCES.txt'
+[1.996s] running build
+[1.996s] running build_py
+[1.997s] creating /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/build
+[1.997s] creating /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/build/lib
+[1.997s] creating /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/build/lib/qube_controller
+[1.997s] copying qube_controller/__init__.py -> /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/build/lib/qube_controller
+[1.997s] copying qube_controller/qube_controller_node.py -> /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/build/lib/qube_controller
+[1.997s] running install
+[2.009s] running install_lib
+[2.038s] creating /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/lib/python3.12/site-packages/qube_controller
+[2.039s] copying /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/build/lib/qube_controller/__init__.py -> /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/lib/python3.12/site-packages/qube_controller
+[2.039s] copying /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/build/lib/qube_controller/qube_controller_node.py -> /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/lib/python3.12/site-packages/qube_controller
+[2.041s] byte-compiling /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/lib/python3.12/site-packages/qube_controller/__init__.py to __init__.cpython-312.pyc
+[2.041s] byte-compiling /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/lib/python3.12/site-packages/qube_controller/qube_controller_node.py to qube_controller_node.cpython-312.pyc
+[2.041s] running install_data
+[2.042s] creating /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/share/ament_index
+[2.042s] creating /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/share/ament_index/resource_index
+[2.042s] creating /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/share/ament_index/resource_index/packages
+[2.042s] copying resource/qube_controller -> /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/share/ament_index/resource_index/packages
+[2.042s] copying package.xml -> /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/share/qube_controller
+[2.042s] running install_egg_info
+[2.068s] Copying ../build/qube_controller/qube_controller.egg-info to /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/lib/python3.12/site-packages/qube_controller-0.0.0-py3.12.egg-info
+[2.069s] running install_scripts
+[2.222s] Installing qube_controller_node script to /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/lib/qube_controller
+[2.223s] writing list of installed files to '/home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/install.log'
+[2.264s] Invoked command in '/home/ubuntu/ros2_ws/src/MiniProsjekt/qube_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/qube_controller build --build-base /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/build install --record /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/install.log --single-version-externally-managed install_data

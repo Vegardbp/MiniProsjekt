@@ -27,12 +27,7 @@ def generate_launch_description():
                 'launch',
                 'qube_driver.launch.py'
             )
-        ]),
-        launch_arguments={
-            'device': '/dev/ttyACM0',
-            'baud_rate': '115200',
-            'simulation': 'true'
-        }.items()
+        ])
     )
 
     # RViz
@@ -48,6 +43,19 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
+        Node(
+            package='qube_controller',
+            executable='qube_controller_node',
+            name='qube_controller',
+            output='screen',
+            parameters=[{
+                'kp': 1.0,    # Start with small values
+                'ki': 0.0,
+                'kd': 0.0,
+                'setpoint': 1.0,  # Adjust this to your desired position
+                'joint_name': 'motor_joint'
+            }]
+        ),
         node_robot_state_publisher,
         rviz_node,
         qube_driver_launch

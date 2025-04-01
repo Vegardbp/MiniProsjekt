@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/qube_controller/qube_controller.egg-info
+writing ../build/qube_controller/qube_controller.egg-info/PKG-INFO
+writing dependency_links to ../build/qube_controller/qube_controller.egg-info/dependency_links.txt
+writing entry points to ../build/qube_controller/qube_controller.egg-info/entry_points.txt
+writing requirements to ../build/qube_controller/qube_controller.egg-info/requires.txt
+writing top-level names to ../build/qube_controller/qube_controller.egg-info/top_level.txt
+writing manifest file '../build/qube_controller/qube_controller.egg-info/SOURCES.txt'
+reading manifest file '../build/qube_controller/qube_controller.egg-info/SOURCES.txt'
+writing manifest file '../build/qube_controller/qube_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/build
+creating /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/build/lib
+creating /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/build/lib/qube_controller
+copying qube_controller/__init__.py -> /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/build/lib/qube_controller
+copying qube_controller/qube_controller_node.py -> /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/build/lib/qube_controller
+running install
+running install_lib
+creating /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/lib/python3.12/site-packages/qube_controller
+copying /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/build/lib/qube_controller/__init__.py -> /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/lib/python3.12/site-packages/qube_controller
+copying /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/build/lib/qube_controller/qube_controller_node.py -> /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/lib/python3.12/site-packages/qube_controller
+byte-compiling /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/lib/python3.12/site-packages/qube_controller/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/lib/python3.12/site-packages/qube_controller/qube_controller_node.py to qube_controller_node.cpython-312.pyc
+running install_data
+creating /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/share/ament_index
+creating /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/share/ament_index/resource_index/packages
+copying resource/qube_controller -> /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/share/qube_controller
+running install_egg_info
+Copying ../build/qube_controller/qube_controller.egg-info to /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/lib/python3.12/site-packages/qube_controller-0.0.0-py3.12.egg-info
+running install_scripts
+Installing qube_controller_node script to /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_controller/lib/qube_controller
+writing list of installed files to '/home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_controller/install.log'
