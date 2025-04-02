@@ -3,7 +3,7 @@
 <package format="3">
   <name>qube_description</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Use a macro to set up a basic RViz of a qube robot</description>
   <maintainer email="103881675+Vegardbp@users.noreply.github.com">ubuntu</maintainer>
   <license>Apache-2.0</license>
 

@@ -1,0 +1,21 @@
+[1.560s] Invoking command in '/home/ubuntu/ros2_ws/src/MiniProsjekt/qube_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/qube_bringup build --build-base /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_bringup/build install --record /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_bringup/install.log --single-version-externally-managed install_data
+[2.076s] running egg_info
+[2.113s] writing ../build/qube_bringup/qube_bringup.egg-info/PKG-INFO
+[2.113s] writing dependency_links to ../build/qube_bringup/qube_bringup.egg-info/dependency_links.txt
+[2.114s] writing requirements to ../build/qube_bringup/qube_bringup.egg-info/requires.txt
+[2.114s] writing top-level names to ../build/qube_bringup/qube_bringup.egg-info/top_level.txt
+[2.190s] reading manifest file '../build/qube_bringup/qube_bringup.egg-info/SOURCES.txt'
+[2.190s] adding license file 'LICENSE'
+[2.191s] writing manifest file '../build/qube_bringup/qube_bringup.egg-info/SOURCES.txt'
+[2.191s] running build
+[2.192s] running build_py
+[2.192s] running install
+[2.203s] running install_lib
+[2.243s] running install_data
+[2.243s] copying urdf/controlled_qube.urdf.xacro -> /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_bringup/share/qube_bringup/urdf
+[2.243s] running install_egg_info
+[2.282s] removing '/home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_bringup/lib/python3.12/site-packages/qube_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[2.283s] Copying ../build/qube_bringup/qube_bringup.egg-info to /home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_bringup/lib/python3.12/site-packages/qube_bringup-0.0.0-py3.12.egg-info
+[2.284s] running install_scripts
+[2.489s] writing list of installed files to '/home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_bringup/install.log'
+[2.535s] Invoked command in '/home/ubuntu/ros2_ws/src/MiniProsjekt/qube_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/MiniProsjekt/install/qube_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/qube_bringup build --build-base /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_bringup/build install --record /home/ubuntu/ros2_ws/src/MiniProsjekt/build/qube_bringup/install.log --single-version-externally-managed install_data

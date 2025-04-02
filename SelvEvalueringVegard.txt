@@ -1,0 +1,25 @@
+qube_description
+
+    Hvor godt dokumentert er filene i pakken? 100%
+    Hvor godt dokumentert er selve pakken? 100%
+    Hvor lik er URDF-beskrivelsen en ekte Qube? 90%
+    Hvor godt funker launch-filen til å visualisere quben? 100%
+
+qube_bringup
+
+    Hvor godt funker launch-filen til å starte opp alle elementene? 
+    95% (ros2_control_node krasjer på shutdown (Lars Ivar?))
+
+    Hvor enkelt kan man endre på hardware-paramererne som baud_rate, device og simulation? (Det å endre parametrene når man kjører launch-filen er enkelt. Det å måtte endre en hardkodet verdi en tilfeldig plass inni launch-filen og måtte bygge den etterpå er ikke enkelt.)
+    100% (launch parametere)
+
+    Hvor godt dokumentert er pakken? 100%
+
+qube_controller
+
+    Hvor godt regulerer regulatoren? 100%
+    Hvor enkelt er det å endre på parametere? 100% 
+    (pid parameter og referansevinkel kan endres med ros2 param set, og navnene er dokumentert)
+    
+    Hvor godt dokumentert er pakken? 100%
+    Hvor enkelt er det å endre på referansevinkelen? 100%

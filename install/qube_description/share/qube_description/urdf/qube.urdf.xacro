@@ -2,10 +2,13 @@
 <robot name="qube" xmlns:xacro="http://www.ros.org/wiki/xacro" >
 	<xacro:include filename="$(find qube_description)/urdf/qube.macro.xacro" />
 
+    <!-- Lage en world link -->
     <link name="world"/>
 
-    <xacro:joint_model prefix="" />
+    <!-- Bruke macroen for å lage en qube -->
+    <xacro:qube_model prefix="" />
 
+    <!-- Koble quben til verden -->
 	<joint name="base_joint" type="fixed">
         <parent link="world"/>
         <child link="base_link"/>

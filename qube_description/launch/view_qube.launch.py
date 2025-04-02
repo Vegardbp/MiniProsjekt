@@ -10,11 +10,11 @@ def generate_launch_description():
     xacro_file = os.path.join(get_package_share_directory(package_name),"urdf","qube.urdf.xacro")
     robot_description_content = xacro.process_file(xacro_file).toxml()   
 
-    node_robot_state_publisher = Node(
+    node_robot_state_publisher = Node( #Robot state publisher for å sende robot beskrivelsen til Rviz
         package='robot_state_publisher',
         executable='robot_state_publisher',
         output='screen',
-        parameters=[{'robot_description': robot_description_content}] # adds a URDF to the robot description
+        parameters=[{'robot_description': robot_description_content}]
     )
 
     # RViz
@@ -29,11 +29,13 @@ def generate_launch_description():
         arguments=['-d', rviz_config]
     )
 
+    #join pub gui for å ha en gui til å kontrollere rotor vinkelen (nødvendig når den ikke er kontrollert av noe annet)
     joint_pub_gui = Node(
         package='joint_state_publisher_gui',
         executable='joint_state_publisher_gui'
     )
 
+    #selve launchen
     return LaunchDescription([
         node_robot_state_publisher,
         rviz_node,

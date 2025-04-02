@@ -3,7 +3,7 @@
 <package format="3">
   <name>qube_bringup</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Package to launch everything necceasry to drive or simulate, visualize, and control a qube</description>
   <maintainer email="103881675+Vegardbp@users.noreply.github.com">ubuntu</maintainer>
   <license>Apache-2.0</license>
 

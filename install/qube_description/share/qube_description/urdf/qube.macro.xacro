@@ -6,7 +6,8 @@
   <xacro:property name="disk_thickness" value="0.01" />
   <xacro:property name="dial_thickness" value="0.002" />
 
-  <xacro:macro name="joint_model" params="prefix">
+  <!-- Macro for hele quben -->
+  <xacro:macro name="qube_model" params="prefix">
 
     <!-- Materials -->
     <material name="${prefix}black">
@@ -19,6 +20,7 @@
       <color rgba="1 0 0 1"/>
     </material>
 
+    <!-- Links og joints for hele basen -->
     <link name="${prefix}base_link"/>
 
     <joint name="${prefix}stator_joint" type="fixed">
@@ -36,6 +38,7 @@
       </visual>
     </link>
 
+    <!-- joint for å koble rorten til basen -->
     <joint name="${prefix}motor_joint" type="revolute">
       <parent link="${prefix}stator_link"/>
       <child link="${prefix}rotor_link"/>
@@ -44,6 +47,7 @@
       <axis xyz="0 0 1"/>
     </joint>
 
+    <!-- Links og joints for å lage rotoren -->
     <link name="${prefix}rotor_link">
       <visual>
         <geometry>

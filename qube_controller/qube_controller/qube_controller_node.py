@@ -9,42 +9,43 @@ class QubeController(Node):
     def __init__(self):
         super().__init__('qube_controller')
         
-        # Declare parameters for PID gains, setpoint, and joint name
+        # deklarere pid parametere
         self.declare_parameter('kp', 1.0)  # Proportional gain
         self.declare_parameter('ki', 0.0)  # Integral gain
         self.declare_parameter('kd', 0.0)  # Derivative gain
         self.declare_parameter('setpoint', 0.0)  # Desired position
         self.declare_parameter('joint_name', 'motor_joint')  # Joint to control
         
-        # Retrieve parameter values
+        # Skaffe parameter verdier
         self.kp = self.get_parameter('kp').value
         self.ki = self.get_parameter('ki').value
         self.kd = self.get_parameter('kd').value
         self.setpoint = self.get_parameter('setpoint').value
         self.joint_name = self.get_parameter('joint_name').value
         
-        # Initialize PID variables
+        # initialisere pid
         self.integral = 0.0  # Accumulated error for integral term
         self.previous_error = 0.0  # Error from the previous step
         self.previous_time = self.get_clock().now()  # Last update time
         
-        # Subscribe to /joint_states
+        # abonere til joint_states
         self.subscription = self.create_subscription(
             JointState,
             '/joint_states',
             self.joint_state_callback,
             10)
         
-        # Publish to /velocity_controller/commands
+        # publisere til /velocity_controller/commands
         self.publisher = self.create_publisher(
             Float64MultiArray,
             '/velocity_controller/commands',
             10)
         
+        # Sette opp et parameter callback for å endre på parametere
         self.add_on_set_parameters_callback(self.parameter_callback)
 
     def parameter_callback(self, params):
-        # Update parameters when changed externally
+        # Oppdatere parameterene
         for param in params:
             if param.name == 'kp':
                 self.kp = param.value
@@ -57,39 +58,38 @@ class QubeController(Node):
         return SetParametersResult(successful=True)
     
     def joint_state_callback(self, msg):
-        # Find the index of motor_joint in the message
+        # fin motor_joint indexen
         try:
             index = msg.name.index(self.joint_name)
         except ValueError:
             self.get_logger().error(f"Joint {self.joint_name} not found in /joint_states")
             return
         
-        # Extract position and velocity
+        # Få posisjon
         position = msg.position[index]
-        velocity = msg.velocity[index]
         
-        # Calculate time difference (dt)
+        # kalkuler delta tid
         current_time = self.get_clock().now()
-        dt = (current_time - self.previous_time).nanoseconds / 1e9  # Convert to seconds
-        dt = max(0.01,dt)
+        dt = (current_time - self.previous_time).nanoseconds / 1e9  # i sekkund
+        dt = max(0.01,dt) # slik at det aldri blir nulldivisjon
         
-        # Compute error (setpoint - current position)
+        # finn avvik
         error = self.setpoint - position
         
-        # Update integral and derivative terms
+        # oppdater i
         self.integral += error * dt
         derivative = (error - self.previous_error) / dt if dt > 0 else 0.0
         
-        # Calculate PID output (velocity command)
+        # regn ut output
         output = self.kp * error + self.ki * self.integral + self.kd * derivative
-        output = max(min(output, 5.0), -5.0)
+        output = max(min(output, 10.0), -10.0) #begrens output til grensen til modellen
         
-        # Create and publish the velocity command
+        # publiser pådrag
         command_msg = Float64MultiArray()
-        command_msg.data = [output]  # Single value for one joint
+        command_msg.data = [output]
         self.publisher.publish(command_msg)
         
-        # Store current error and time for the next iteration
+        # lagre error og tid for neste iterasjon
         self.previous_error = error
         self.previous_time = current_time
 

@@ -1,22 +1,23 @@
 <?xml version="1.0"?>
 <robot name="qube" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- Definere argumenter for hardware parameter -->
     <xacro:arg name="baud_rate" default="115200"/>
     <xacro:arg name="device" default="/dev/ttyACM0"/>
     <xacro:arg name="simulation" default="true"/>
 
-    <!-- Include existing Qube components -->
+    <!-- Inkludere qube komponenter (xacro maxroen fra qube_description), og driver fra Lars Ivar sitt bibliotek -->
     <xacro:include filename="$(find qube_description)/urdf/qube.macro.xacro" />
     <xacro:include filename="$(find qube_driver)/ros2_control/qube_driver.ros2_control.xacro" />
 
-    <!-- Base link and world connection -->
+    <!-- Sette opp verden og legge in en qube fra makroen -->
     <link name="world"/>
-    <xacro:joint_model prefix="" />
+    <xacro:qube_model prefix="" />
     <joint name="base_joint" type="fixed">
         <parent link="world"/>
         <child link="base_link"/>
     </joint>
 
-    <!-- ROS2 Control integration -->
+    <!-- Sette opp Lars Ivar sin driver og sende argumenter -->
     <xacro:qube_driver_ros2_control 
         name="qube_driver"
         prefix=""
