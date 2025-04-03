@@ -44,7 +44,7 @@
       <child link="${prefix}rotor_link"/>
       <origin xyz="0 0 ${box_width/2}"/>
       <limit lower="-3.14" upper="3.14" effort="10" velocity="10"/>
-      <axis xyz="0 0 1"/>
+      <axis xyz="0 0 -1"/>
     </joint>
 
     <!-- Links og joints for å lage rotoren -->
