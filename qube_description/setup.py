@@ -1,5 +1,4 @@
 from setuptools import find_packages, setup
-
 import os
 from glob import glob
 
@@ -13,8 +12,11 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        #installerer launch.py filene fra launch mappen
         (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
+        #instalerer alle urdf/xacro filene
         (os.path.join('share', package_name, 'urdf'), glob('urdf/*.xacro*')),
+        #instalerer alle rviz konfigurasjonsfiler
         (os.path.join('share', package_name, 'config'), glob('config/*.rviz')),
     ],
     install_requires=['setuptools'],
