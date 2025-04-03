@@ -82,7 +82,7 @@ class QubeController(Node):
         
         # regn ut output
         output = self.kp * error + self.ki * self.integral + self.kd * derivative
-        output = max(min(output, 10.0), -10.0) #begrens output til grensen til modellen
+        output = max(min(output, 100.0), -100.0) #begrens output til grensen til modellen
         
         # publiser pådrag
         command_msg = Float64MultiArray()
